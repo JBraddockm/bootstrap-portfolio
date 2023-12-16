@@ -1,0 +1,11 @@
+/* Changes underlined hyperlink style. */
+a {
+    text-underline-offset: 10px;
+
+    &:hover {
+        text-decoration-style: dotted !important;
+        /* Uses Boostrap variables */
+        text-decoration-color: var(--bs-orange) !important;
+        text-decoration-thickness: calc(var(--bs-border-width) * 3) !important;
+    }
+}
