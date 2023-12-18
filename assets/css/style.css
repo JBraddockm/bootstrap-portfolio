@@ -6,4 +6,10 @@ a {
         text-decoration-color: var(--bs-orange) !important;
         text-decoration-thickness: calc(var(--bs-border-width) * 3) !important;
     }
+
+    &.rounded-pill{
+        &:hover{
+            background: var(--bs-secondary-bg)!important;
+        }
+    }
 }
