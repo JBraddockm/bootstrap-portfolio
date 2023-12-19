@@ -9,9 +9,9 @@ a {
 
     &.rounded-pill{
         transition: box-shadow .5s;
-        box-shadow: var(--bs-box-shadow);
+        box-shadow: var(--bs-box-shadow-sm);
         &:hover{
-            background: var(--bs-box-shadow-sm)!important;
+            background: var(--bs-dark-bg-subtle)!important;
             box-shadow:var(--bs-box-shadow-lg);
         }
     }
