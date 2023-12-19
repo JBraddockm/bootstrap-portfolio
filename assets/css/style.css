@@ -16,3 +16,10 @@ a {
         }
     }
 }
+
+.card{
+    transition: box-shadow .5s!important;
+    &:hover{
+        box-shadow:var(--bs-box-shadow-lg)!important;
+    }
+}
