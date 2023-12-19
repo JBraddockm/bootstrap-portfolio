@@ -3,7 +3,7 @@ a {
     &:hover {
         text-decoration-style: dotted !important;
         /* Uses Boostrap variables */
-        text-decoration-color: var(--bs-dark-bg-subtle) !important;
+        text-decoration-color: var(--bs-dark) !important;
         text-decoration-thickness: calc(var(--bs-border-width) * 3) !important;
     }
 
@@ -17,6 +17,7 @@ a {
     }
 }
 
+/* Adds box-shadow on hover */
 .card, .list-group{
     transition: box-shadow .5s!important;
     &:hover{
